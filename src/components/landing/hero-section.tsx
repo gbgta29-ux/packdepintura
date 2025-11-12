@@ -40,7 +40,7 @@ const HeroSection = () => {
             Aprenda 3 técnicas profissionais e crie um negócio altamente lucrativo — mesmo sem experiência.
           </p>
           
-          <div className="w-full max-w-sm sm:max-w-3xl aspect-video rounded-xl border-4 border-primary shadow-2xl overflow-hidden my-8 relative">
+          <div className="w-full max-w-md sm:max-w-3xl aspect-video rounded-xl border-4 border-primary shadow-2xl overflow-hidden my-8 relative">
             <video 
               ref={videoRef}
               className="w-full h-full object-cover" 
