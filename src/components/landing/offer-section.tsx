@@ -37,10 +37,11 @@ const OfferSection = () => {
             <p className="text-5xl font-bold text-primary">por apenas R$ 29,90</p>
             <p className="text-lg font-medium">(pagamento único)</p>
           </div>
-
-          <Button size="lg" className="w-full text-lg md:text-xl h-auto py-3 md:h-14 bg-success text-success-foreground hover:bg-success/90 font-bold animate-pulse">
-            GARANTIR MEU MEGAPACK COM DESCONTO
-          </Button>
+          <a href="https://pay.kirvano.com/8ca49169-3af7-418a-ac35-8344eb0f446d" target="_blank" rel="noopener noreferrer">
+            <Button size="lg" className="w-full text-lg md:text-xl h-auto py-3 md:h-14 bg-success text-success-foreground hover:bg-success/90 font-bold animate-pulse">
+              GARANTIR MEU MEGAPACK COM DESCONTO
+            </Button>
+          </a>
           <p className="text-xs text-muted-foreground">
             Pagamento 100% seguro | Acesso imediato | Download vitalício
           </p>

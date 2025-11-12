@@ -15,6 +15,13 @@ const HeroSection = () => {
     }
   };
 
+  const handleScrollToOffer = () => {
+    const offerSection = document.getElementById('offer');
+    if (offerSection) {
+      offerSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section 
       id="hero" 
@@ -58,6 +65,7 @@ const HeroSection = () => {
           <Button 
             size="lg" 
             className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-base px-6 py-3 h-auto md:text-lg md:px-10 md:py-6 rounded-full shadow-lg animate-pulse"
+            onClick={handleScrollToOffer}
           >
             QUERO TRANSFORMAR MINHAS PAREDES AGORA!
           </Button>
