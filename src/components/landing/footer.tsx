@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="bg-black text-white py-8">
       <div className="container mx-auto px-4 md:px-6 text-center">
         <div className="flex justify-center items-center space-x-4 mb-4">
-          <span className="font-bold text-lg">Hotmart</span>
+          <span className="font-bold text-lg">Kirvano</span>
           <ShieldCheck className="h-6 w-6 text-green-500" />
           <ShieldCheck className="h-6 w-6 text-green-500" />
         </div>

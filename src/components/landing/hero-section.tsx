@@ -31,7 +31,7 @@ const HeroSection = () => {
 
           <Button 
             size="lg" 
-            className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-lg px-10 py-6 rounded-full shadow-lg animate-pulse"
+            className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-lg px-8 py-4 md:px-10 md:py-6 rounded-full shadow-lg animate-pulse"
           >
             QUERO TRANSFORMAR MINHAS PAREDES AGORA!
           </Button>

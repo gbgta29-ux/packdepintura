@@ -53,7 +53,7 @@ const WhatsIncludedSection = () => {
                 </div>
               </CardContent>
             </Card>
-            <Button size="lg" className="w-full text-xl h-14 bg-success text-success-foreground hover:bg-success/90 font-bold">
+            <Button size="lg" className="w-full text-lg md:text-xl h-auto py-3 md:h-14 bg-success text-success-foreground hover:bg-success/90 font-bold">
               QUERO APROVEITAR O DESCONTO AGORA
             </Button>
           </div>
