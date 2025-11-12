@@ -1,3 +1,124 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "megapack-cover",
+      "description": "Cover of the Megapack de Decoração de Paredes.",
+      "imageUrl": "https://gvdtvgefzbxunjrtzrdw.supabase.co/storage/v1/object/public/media/le6s8xvo4xf_1762910647945.png",
+      "imageHint": "book cover"
+    },
+    {
+      "id": "stucco-1",
+      "description": "Wall with Venetian stucco marble effect.",
+      "imageUrl": "https://kdloteojnkcjblhoirea.supabase.co/storage/v1/object/public/public-files/0.3809294005761473.jpg",
+      "imageHint": "marble wall"
+    },
+    {
+      "id": "stucco-2",
+      "description": "Textured wall with Venetian stucco.",
+      "imageUrl": "https://kdloteojnkcjblhoirea.supabase.co/storage/v1/object/public/public-files/0.25566540143263083.jpg",
+      "imageHint": "stucco wall"
+    },
+    {
+      "id": "epoxy-1",
+      "description": "Wall with modern epoxy resin finish.",
+      "imageUrl": "https://kdloteojnkcjblhoirea.supabase.co/storage/v1/object/public/public-files/0.7098616832892723.jpg",
+      "imageHint": "epoxy resin"
+    },
+    {
+      "id": "epoxy-2",
+      "description": "Wall with epoxy resin mirror effect.",
+      "imageUrl": "https://kdloteojnkcjblhoirea.supabase.co/storage/v1/object/public/public-files/0.5001600221484964.jpg",
+      "imageHint": "mirror effect"
+    },
+    {
+      "id": "vinyl-1",
+      "description": "Wall decorated with decorative vinyls.",
+      "imageUrl": "https://kdloteojnkcjblhoirea.supabase.co/storage/v1/object/public/public-files/0.21425972018612383.jpg",
+      "imageHint": "decorative vinyl"
+    },
+    {
+      "id": "vinyl-2",
+      "description": "Wall with themed vinyl stickers.",
+      "imageUrl": "https://kdloteojnkcjblhoirea.supabase.co/storage/v1/object/public/public-files/0.9218637150407236.jpg",
+      "imageHint": "vinyl stickers"
+    },
+    {
+      "id": "benefits-image",
+      "description": "Image illustrating the benefits of the Megapack.",
+      "imageUrl": "https://kdloteojnkcjblhoirea.supabase.co/storage/v1/object/public/public-files/0.8310528538507864.jpg",
+      "imageHint": "decorated room"
+    },
+    {
+      "id": "bonus-suppliers",
+      "description": "Cover for the Suppliers List bonus.",
+      "imageUrl": "https://kdloteojnkcjblhoirea.supabase.co/storage/v1/object/public/public-files/0.8213536342930404.png",
+      "imageHint": "list document"
+    },
+    {
+      "id": "bonus-lamps",
+      "description": "Cover for the Resin Lamps bonus.",
+      "imageUrl": "https://kdloteojnkcjblhoirea.supabase.co/storage/v1/object/public/public-files/0.4354052156186332.png",
+      "imageHint": "resin lamp"
+    },
+    {
+      "id": "bonus-checklist",
+      "description": "Cover for the Production and Safety Checklist bonus.",
+      "imageUrl": "https://images.unsplash.com/photo-1682637275957-8e62180efd1b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjaGVja2xpc3QlMjBzZWN1cml0eXxlbnwwfHx8fDE3NjI5NTgzNzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "checklist security"
+    },
+    {
+      "id": "bonus-sales-guide",
+      "description": "Cover for The Art of Selling bonus guide.",
+      "imageUrl": "https://kdloteojnkcjblhoirea.supabase.co/storage/v1/object/public/public-files/0.6898703925208848.png",
+      "imageHint": "business guide"
+    },
+    {
+      "id": "bonus-vip",
+      "description": "Icon for the VIP Membership bonus.",
+      "imageUrl": "https://kdloteojnkcjblhoirea.supabase.co/storage/v1/object/public/public-files/0.3069011078178031.png",
+      "imageHint": "vip badge"
+    },
+    {
+      "id": "bonus-certificate",
+      "description": "Image of the Certificate of Completion.",
+      "imageUrl": "https://kdloteojnkcjblhoirea.supabase.co/storage/v1/object/public/public-files/0.7076374826659633.png",
+      "imageHint": "certificate"
+    },
+    {
+      "id": "offer-pack",
+      "description": "Mockup of the full megapack for the offer.",
+      "imageUrl": "https://kdloteojnkcjblhoirea.supabase.co/storage/v1/object/public/public-files/0.35489531522020634.png",
+      "imageHint": "product bundle"
+    },
+    {
+      "id": "testimonial-1",
+      "description": "First user testimonial screenshot.",
+      "imageUrl": "https://kdloteojnkcjblhoirea.supabase.co/storage/v1/object/public/public-files/0.7884110499456234.jpg",
+      "imageHint": "chat message"
+    },
+    {
+      "id": "testimonial-2",
+      "description": "Second user testimonial screenshot.",
+      "imageUrl": "https://kdloteojnkcjblhoirea.supabase.co/storage/v1/object/public/public-files/0.5123391218382763.jpg",
+      "imageHint": "user review"
+    },
+    {
+      "id": "testimonial-3",
+      "description": "Third user testimonial screenshot.",
+      "imageUrl": "https://kdloteojnkcjblhoirea.supabase.co/storage/v1/object/public/public-files/0.46613659718189304.jpg",
+      "imageHint": "customer feedback"
+    },
+    {
+      "id": "testimonial-4",
+      "description": "Fourth user testimonial screenshot.",
+      "imageUrl": "https://kdloteojnkcjblhoirea.supabase.co/storage/v1/object/public/public-files/0.9769979500245133.jpg",
+      "imageHint": "positive testimonial"
+    },
+    {
+      "id": "author-pic",
+      "description": "Photo of the author, Carlos Alberto.",
+      "imageUrl": "https://images.unsplash.com/photo-1624639948977-b54981cf5d5a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxtYW4lMjB3b3Jrc2hvcHxlbnwwfHx8fDE3NjI5NTgzNzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man workshop"
+    }
+  ]
 }

@@ -1,0 +1,44 @@
+import { Button } from "@/components/ui/button";
+
+const HeroSection = () => {
+  return (
+    <section 
+      id="hero" 
+      className="w-full py-20 md:py-32 lg:py-40 relative overflow-hidden"
+      style={{
+        backgroundColor: '#f8f8ff',
+        backgroundImage: 'radial-gradient(at 20% 80%, hsla(45, 66%, 52%, 0.1) 0px, transparent 50%), radial-gradient(at 80% 20%, hsla(300, 26%, 71%, 0.1) 0px, transparent 50%), radial-gradient(at 80% 80%, hsla(220, 13%, 91%, 0.2) 0px, transparent 50%)'
+      }}
+    >
+      <div className="container mx-auto px-4 md:px-6 z-10 relative">
+        <div className="flex flex-col items-center space-y-6 text-center">
+          <h1 className="text-4xl font-headline font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl text-balance">
+            TRANSFORME PAREDES COMUNS EM <span className="text-primary">OBRAS DE ARTE</span> EM MENOS DE 7 DIAS
+          </h1>
+          <p className="max-w-[700px] text-muted-foreground md:text-xl">
+            Aprenda 3 técnicas profissionais e crie um negócio altamente lucrativo — mesmo sem experiência.
+          </p>
+          
+          <div className="w-full max-w-3xl aspect-video rounded-xl border-4 border-primary shadow-2xl overflow-hidden my-8">
+            <video 
+              className="w-full h-full object-cover" 
+              src="https://kdloteojnkcjblhoirea.supabase.co/storage/v1/object/public/public-files/0.4184288591553941.mp4" 
+              controls
+            >
+              Your browser does not support the video tag.
+            </video>
+          </div>
+
+          <Button 
+            size="lg" 
+            className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-lg px-10 py-6 rounded-full shadow-lg animate-pulse"
+          >
+            QUERO TRANSFORMAR MINHAS PAREDES AGORA!
+          </Button>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default HeroSection;
