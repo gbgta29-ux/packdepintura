@@ -53,7 +53,7 @@ const WhatsIncludedSection = () => {
                 </div>
               </CardContent>
             </Card>
-            <a href="https://pay.kirvano.com/8ca49169-3af7-418a-ac35-8344eb0f446d" target="_blank" rel="noopener noreferrer">
+            <a href="https://pay.kirvano.com/5c08be4a-9035-4363-bf5e-2c06b2f7d783" target="_blank" rel="noopener noreferrer">
               <Button size="lg" className="w-full text-lg md:text-xl h-auto py-3 md:h-14 bg-success text-success-foreground hover:bg-success/90 font-bold">
                 QUERO APROVEITAR O DESCONTO AGORA
               </Button>

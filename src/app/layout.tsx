@@ -4,7 +4,7 @@ import { Toaster } from "@/components/ui/toaster"
 import Script from 'next/script';
 
 export const metadata: Metadata = {
-  title: 'WallTransform',
+  title: 'Mega Pack',
   description: 'Transforme paredes comuns em obras de arte.',
 };
 
