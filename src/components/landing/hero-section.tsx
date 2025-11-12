@@ -1,6 +1,20 @@
+"use client";
+
+import { useState, useRef } from "react";
 import { Button } from "@/components/ui/button";
+import { PlayCircle } from "lucide-react";
 
 const HeroSection = () => {
+  const [isPlaying, setIsPlaying] = useState(false);
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  const handlePlay = () => {
+    if (videoRef.current) {
+      videoRef.current.play();
+      setIsPlaying(true);
+    }
+  };
+
   return (
     <section 
       id="hero" 
@@ -19,19 +33,31 @@ const HeroSection = () => {
             Aprenda 3 técnicas profissionais e crie um negócio altamente lucrativo — mesmo sem experiência.
           </p>
           
-          <div className="w-full max-w-3xl aspect-video rounded-xl border-4 border-primary shadow-2xl overflow-hidden my-8">
+          <div className="w-full max-w-sm sm:max-w-3xl aspect-video rounded-xl border-4 border-primary shadow-2xl overflow-hidden my-8 relative">
             <video 
+              ref={videoRef}
               className="w-full h-full object-cover" 
               src="https://kdloteojnkcjblhoirea.supabase.co/storage/v1/object/public/public-files/0.4184288591553941.mp4" 
-              controls
+              poster="https://kdloteojnkcjblhoirea.supabase.co/storage/v1/object/public/public-files/0.49243368615666105.jpg"
+              onPlay={() => setIsPlaying(true)}
+              onPause={() => setIsPlaying(false)}
+              controls={isPlaying}
             >
               Your browser does not support the video tag.
             </video>
+            {!isPlaying && (
+              <div 
+                className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-30 cursor-pointer"
+                onClick={handlePlay}
+              >
+                <PlayCircle className="w-20 h-20 text-white text-opacity-80 hover:text-opacity-100 hover:scale-110 transition-all duration-300" />
+              </div>
+            )}
           </div>
 
           <Button 
             size="lg" 
-            className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-base px-6 py-3 md:text-lg md:px-10 md:py-6 rounded-full shadow-lg animate-pulse"
+            className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-base px-6 py-3 h-auto md:text-lg md:px-10 md:py-6 rounded-full shadow-lg animate-pulse"
           >
             QUERO TRANSFORMAR MINHAS PAREDES AGORA!
           </Button>
